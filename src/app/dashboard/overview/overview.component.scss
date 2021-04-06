@@ -1,0 +1,94 @@
+.period-selector {
+  padding: 25px 30px;
+  h1 {
+    display: inline;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  select {
+    border: none;
+    outline: none;
+    font-size: 23px;
+    font-weight: 100;
+  }
+}
+
+.advantages {
+  .row {
+    margin-bottom: 20px;
+  }
+
+  &__card {
+    border: 1px solid #dee5f0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 7px 30px 10px 10px;
+    box-shadow: 11px 11px 20px 0px #efefef;
+
+    &__iconplace {
+      width: 75px;
+      height: 75px;
+      border: 1px solid #ffe7e6;
+      border-radius: 15px;
+      margin-right: 20px;
+
+      .icon {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        transform: scale(0.5);
+      }
+    }
+
+    &__info {
+      span {
+        font-size: 40px;
+        font-weight: 100;
+      }
+
+      p {
+        text-transform: capitalize;
+        margin: 0;
+        font-size: 15px;
+        color: #76889c;
+      }
+    }
+
+    .reservation {
+      background-image: url(../../../assets/icons/23reservations.svg);
+    }
+
+    .menu {
+      background-image: url(../../../assets/icons/menu.svg);
+    }
+
+    .employeers {
+      background-image: url(../../../assets/icons/employeers.svg);
+    }
+
+    .rating {
+      background-image: url(../../../assets/icons/rating.svg);
+    }
+
+    .total-dish-sold {
+      background-image: url(../../../assets/icons/dish-sold.svg);
+    }
+
+    .weekly-dish-sold {
+      background-image: url(../../../assets/icons/dish-sold.svg);
+    }
+
+    .total-income {
+      background-image: url(../../../assets/icons/daily-money-income.svg);
+    }
+
+    .weekly-income {
+      background-image: url(../../../assets/icons/weekly-money-income.svg);
+    }
+  }
+}
