@@ -15,6 +15,7 @@ h2 {
 }
 
 button {
+  cursor: pointer;
   color: #FFFEFE;
   background: #FF1D1E;
   border: none;
@@ -24,6 +25,12 @@ button {
   border-radius: 26px;
   margin-top: 30px;
   margin-left: 21px;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 11px 11px 20px 0px #ffd1d0;
+    transition: 0.3s;
+  }
 
   span::before {
     content: '+';
