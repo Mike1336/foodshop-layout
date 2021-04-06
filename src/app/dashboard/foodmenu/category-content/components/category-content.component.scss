@@ -3,11 +3,18 @@
 }
 
 .food-card {
+  cursor: pointer;
   box-shadow: 11px 11px 20px 0px #edeeee;
   border-radius: 22px;
   padding: 10px;
   margin-bottom: 20px;
   width: 186px;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 11px 11px 20px 0px #abacac;
+    transition: 0.3s;
+  }
 
   &__image {
     border-radius: 10px;

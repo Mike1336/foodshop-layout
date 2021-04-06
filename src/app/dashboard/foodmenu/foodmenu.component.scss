@@ -4,10 +4,21 @@
 
 .category-selector {
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .category-content {
   margin-top: 20px;
+}
+
+.button-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.food-content {
+  justify-content: center;
 }
 
 h2 {
@@ -23,8 +34,6 @@ button {
   width: 125px;
   height: 42px;
   border-radius: 26px;
-  margin-top: 30px;
-  margin-left: 21px;
   transition: 0.3s;
 
   &:hover {

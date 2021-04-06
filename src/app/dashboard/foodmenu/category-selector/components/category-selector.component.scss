@@ -61,6 +61,13 @@ aside {
   .active {
     background: #fd0000;
     box-shadow: 11px 11px 20px 0px #FFD1D0;
+    transition: 0.3s;
+
+    &:hover {
+      box-shadow: 11px 11px 20px 0px #fab9b8;
+      transition: 0.3s;
+    }
+
     span, p {
       color: white;
     }
@@ -99,6 +106,12 @@ button {
   margin-left: 50%;
   transform: translateX(-50%);
   color: #fd0000;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 11px 11px 20px 0px #ffd1d0;
+    transition: 0.3s;
+  }
 
   span::before {
     content: '+';
