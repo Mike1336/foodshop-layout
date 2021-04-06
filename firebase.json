@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "yes",
+    "public": "dist/foodshop-layout",
     "ignore": [
       "firebase.json",
       "**/.*",
