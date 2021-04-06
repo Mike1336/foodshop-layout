@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { NavmenuRoutingModule } from './navmenu-routing.module';
 import { NavmenuComponent } from './navmenu.component';
 
 
@@ -11,7 +10,6 @@ import { NavmenuComponent } from './navmenu.component';
   ],
   imports: [
     CommonModule,
-    NavmenuRoutingModule
   ],
   exports: [
     NavmenuComponent,
