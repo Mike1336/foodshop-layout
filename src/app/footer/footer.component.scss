@@ -1,0 +1,169 @@
+footer {
+  padding-top: 350px;
+
+  .logo {
+    display: inline-block;
+    cursor: pointer;
+    background-image: url(../../assets/icons/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+
+  .social-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 80px;
+
+    .facebook {
+      cursor: pointer;
+      background-image: url(../../assets/icons/facebook.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      width: 25px;
+      height: 25px;
+    }
+
+    .instagram {
+      cursor: pointer;
+      background-image: url(../../assets/icons/instagram.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      width: 25px;
+      height: 25px;
+    }
+
+    .linkedin {
+      cursor: pointer;
+      background-image: url(../../assets/icons/linkedin.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      width: 25px;
+      height: 25px;
+    }
+
+    .twitter {
+      cursor: pointer;
+      background-image: url(../../assets/icons/twitter.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  h3 {
+    font-weight: 500;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2.5;
+    font-weight: 100;
+  }
+
+  li {
+    cursor: pointer;
+    font-weight: 100;
+    transition: 0.3s;
+
+    &:hover {
+      color: red;
+      transition: 0.3s;
+    }
+  }
+
+  .mail {
+    span {
+      text-transform: none;
+    }
+  }
+
+  .email-field {
+    margin: 25px 0;
+    font-weight: 100;
+
+    input {
+      border: none;
+      height: 35px;
+      border-radius: 20px;
+      box-shadow: 4px 5px 20px 0px #e0dbdb;
+      padding-left: 15px;
+      outline: none;
+    }
+
+    button {
+      cursor: pointer;
+      margin-left: -30px;
+      border: none;
+      outline: none;
+      border-radius: 25px;
+      height: 35px;
+      width: 75px;
+      background: #ff1d1e;
+      color: white;
+      box-shadow: 11px 11px 20px 0px #ffd1d0;
+    }
+  }
+
+  .tel,
+  .mail {
+    font-weight: 100;
+  }
+
+  .tel {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: 100;
+
+    span::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 18px;
+      margin-right: 10px;
+      background-image: url(../../assets/icons/tel.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .mail {
+    font-weight: 100;
+
+    span::before {
+      content: "";
+      display: inline-block;
+      margin-right: 10px;
+      width: 20px;
+      height: 18px;
+      background-image: url(../../assets/icons/mail.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .copyright {
+    font-weight: 100;
+    padding-left: 80px;
+  }
+
+  .designer {
+    font-weight: 100;
+    text-align: end;
+    padding-right: 50px;
+  }
+}
