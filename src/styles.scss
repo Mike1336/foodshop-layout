@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
 body {
   background-image: url(./assets/images/Dashboard.png);
+  background-size: cover;
 }

@@ -1,0 +1,91 @@
+.cards {
+  margin-left: -28px;
+}
+
+.food-card {
+  cursor: pointer;
+  box-shadow: 11px 11px 20px 0px #edeeee;
+  border-radius: 22px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 186px;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 11px 11px 20px 0px #abacac;
+    transition: 0.3s;
+  }
+
+  &__image {
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 171px;
+    height: 137px;
+  }
+
+  &__info {
+    &__main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 7px;
+
+      p {
+        font-weight: 100;
+      }
+
+      span {
+        font-weight: 500;
+      }
+    }
+
+    &__rest {
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+
+      p {
+        color: #76889c;
+        margin: 0;
+      }
+
+      span, p {
+        font-size: 10px;
+      }
+
+      .orders-count {
+        width: 50%;
+      }
+    }
+  }
+
+  .pizza1 {
+    background-image: url(../../../../../assets/icons/pizza1.svg);
+  }
+
+  .pizza2 {
+    background-image: url(../../../../../assets/icons/pizza2.svg);
+  }
+
+  .pizza3 {
+    background-image: url(../../../../../assets/icons/pizza3.svg);
+  }
+
+  .pizza4 {
+    background-image: url(../../../../../assets/icons/pizza4.svg);
+  }
+
+  .pizza5 {
+    background-image: url(../../../../../assets/icons/pizza5.svg);
+  }
+
+  .pizza6 {
+    background-image: url(../../../../../assets/icons/pizza6.svg);
+  }
+
+  .pizza7 {
+    background-image: url(../../../../../assets/icons/pizza7.svg);
+  }
+}

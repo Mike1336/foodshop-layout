@@ -1,0 +1,50 @@
+.heading {
+  align-items: flex-end;
+}
+
+.category-selector {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.category-content {
+  margin-top: 20px;
+}
+
+.button-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.food-content {
+  justify-content: center;
+}
+
+h2 {
+  margin: 8px 18px;
+}
+
+button {
+  cursor: pointer;
+  color: #FFFEFE;
+  background: #FF1D1E;
+  border: none;
+  outline: none;
+  width: 125px;
+  height: 42px;
+  border-radius: 26px;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 11px 11px 20px 0px #ffd1d0;
+    transition: 0.3s;
+  }
+
+  span::before {
+    content: '+';
+    margin-right: 2px;
+  }
+}
+
+
