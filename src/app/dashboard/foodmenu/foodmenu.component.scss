@@ -1,0 +1,30 @@
+.row {
+  align-items: flex-end;
+}
+
+h2, span {
+  text-transform: capitalize;
+}
+
+h2 {
+  margin: 8px 18px;
+}
+
+button {
+  color: #FFFEFE;
+  background: #FF1D1E;
+  border: none;
+  outline: none;
+  width: 125px;
+  height: 42px;
+  border-radius: 26px;
+  margin-top: 30px;
+  margin-left: 21px;
+
+  span::before {
+    content: '+';
+    margin-right: 2px;
+  }
+}
+
+
