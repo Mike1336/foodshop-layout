@@ -1,9 +1,3 @@
-.flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 footer {
   padding-top: 350px;
 
@@ -161,13 +155,24 @@ footer {
     }
   }
 
+  .project-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .categories, .useful-links {
+    padding-left: 40px;
+  }
+
   .copyright {
     font-weight: 100;
+    text-align: center;
   }
 
   .designer {
     font-weight: 100;
-    text-align: end;
+    text-align: left;
   }
 }
 
@@ -178,5 +183,16 @@ footer {
 
   .social-links {
     width: 40% !important;
+  }
+
+  .categories, .useful-links, .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .designer {
+    text-align: center !important;
   }
 }
